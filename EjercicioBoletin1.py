@@ -16,8 +16,8 @@ while numeroEnPar<numeroIntroducido:
     numeroEnPar+=2
 
 #4
-peso = input()
-altura = input()
+peso = float(input())
+altura = float(input())
 imc= peso/altura
 print (round(imc,2))
 
@@ -28,7 +28,7 @@ numeroAlAzar1 = random.randint(2, 10)
 numeroAlAzar2 = random.randint(2, 10)
 multiplicacion = numeroAlAzar1*numeroAlAzar2
 print ("Dime un numero")
-numeroIntento=input()
+numeroIntento=int(input())
 if numeroIntento == multiplicacion:
     print("Has acertado")
 else:
