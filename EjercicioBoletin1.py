@@ -5,6 +5,31 @@ print ("!Hola ", nombre1, "-Me alegro de conocerle, ",nombre1)
 #2
 nombre2 = input()
 print (nombre2.upper)
-print (nombre2.lower)
+print (nombre2.len)
 
+#3
+numeroIntroducido = input()
+numeroEnPar=0
 
+while numeroEnPar<numeroIntroducido:
+    print(numeroEnPar)
+    numeroEnPar+=2
+
+#4
+peso = input()
+altura = input()
+imc= peso/altura
+print (round(imc,2))
+
+#5
+import random
+
+numeroAlAzar1 = random.randint(2, 10)
+numeroAlAzar2 = random.randint(2, 10)
+multiplicacion = numeroAlAzar1*numeroAlAzar2
+print ("Dime un numero")
+numeroIntento=input()
+if numeroIntento == multiplicacion:
+    print("Has acertado")
+else:
+    print("Error, el numero correcto era ",multiplicacion)
