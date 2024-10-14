@@ -8,7 +8,7 @@ print (nombre2.upper)
 print (len(nombre2))
 
 #3
-numeroIntroducido = input()
+numeroIntroducido = int(input())
 numeroEnPar=0
 
 while numeroEnPar<numeroIntroducido:
