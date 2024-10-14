@@ -2,10 +2,10 @@
 nombre1=input()
 print ("!Hola ", nombre1, "-Me alegro de conocerle, ",nombre1)
 
-#2
+#2 
 nombre2 = input()
 print (nombre2.upper)
-print (nombre2.len)
+print (len(nombre2))
 
 #3
 numeroIntroducido = input()
